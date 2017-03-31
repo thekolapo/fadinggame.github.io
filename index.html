@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fading</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div id="large-header">
+        <canvas id="demo-canvas"></canvas>
+    </div>
+    <div class="hero">
+        <div class="container container--sm text-center">
+            <div class="fadeIn">
+                <div class="hero__ball-wrap">
+                    <div class="hero__ball"></div>
+                </div>
+            </div>
+            <h1 class="hero__title">
+                <span>F</span><span>a</span><span>d</span><span>i</span><span>n</span><span>g</span><span class="last">.</span>
+            </h1>
+            <p class="copy">Fading is a minimalist 2D game where you traverse the troubled mind of a man whose wife is dying of a terminal illness.</p>
+        </div>
+    </div>
+    <div class="trailer">
+        <div class="container">
+            <iframe class="trailer__video" id="ytplayer" type="text/html" src="https://www.youtube.com/embed/ZgAAamZFbz0? modestbranding=1&showinfo=0&controls=2&rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="everywhere">
+        <div class="container container--sm text-center">
+            <h2 class="section__title"></h2>
+            <p class="copy"></p>
+        </div>
+    </div>
+    <div class="elements">
+        <div class="element element__tv">
+            <img src="images/frames/tv.png">
+            <div class="element__screen">
+                <video src="videos/demos/1.mp4" autoplay loop></video>
+            </div>
+        </div>
+        <div class="element element__tablet">
+            <img src="images/frames/tablet.png">
+            <div class="element__screen">
+                <!-- <video src="videos/demos/3.mp4" autoplay loop></video> -->
+                <img src="images/screenshots/3.png">
+            </div>
+        </div>
+        <div class="element element__s7">
+            <img src="images/frames/s7.png">
+            <div class="element__screen">
+                <!-- <video src="videos/demos/2.mp4" autoplay loop></video> -->
+                <img src="images/screenshots/4.png">
+            </div>
+        </div>
+        <div class="element element__xbox">
+            <img src="images/frames/xbox.png">
+        </div>
+    </div>
+    <div class="elements elements--mobile">
+        <div class="container container--sm">
+            <img src="images/frames/everywhere.png">
+        </div>
+    </div>
+    <div class="platforms">
+        <img src="images/platforms/black/xbox.png">
+        <img src="images/platforms/black/appstore.png">
+        <img src="images/platforms/black/playstore.png">
+        <img src="images/platforms/black/steam.png">
+        <img src="images/platforms/black/windows.png">
+    </div>
+    <div class="screenshots">
+        <div class="container container--lg u-flex">
+            <a class="screenshot" href="images/screenshots/1.png" data-lightbox="screenshot">
+                <img src="images/screenshots/1.png">
+            </a>
+            <a href="images/screenshots/2.png" class="screenshot" data-lightbox="screenshot">
+                <img src="images/screenshots/2.png">
+            </a>
+            <a href="images/screenshots/3.png" class="screenshot" data-lightbox="screenshot">
+                <img src="images/screenshots/3.png">
+            </a>
+            <a href="images/screenshots/4.png" class="screenshot" data-lightbox="screenshot">
+                <img src="images/screenshots/4.png">
+            </a>
+            <a href="images/screenshots/5.png" class="screenshot" data-lightbox="screenshot">
+                <img src="images/screenshots/5.png">
+            </a>
+            <a href="images/screenshots/6.png" class="screenshot" data-lightbox="screenshot">
+                <img src="images/screenshots/6.png">
+            </a>
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="container container--xs text-center">
+            <div class="subscribe__icon">
+                <!-- <i class="ion-android-notifications"></i> -->
+                <div class="subscribe__icon-svg">
+                    <svg width="92px" height="92px" viewBox="0 0 92 92" xmlns="http://www.w3.org/2000/svg"><title>Artboard</title><g fill="none" fill-rule="evenodd"><g fill="#fff"><path d="M45.78125,3.00219825 C44.7508578,3.11542837 43.9777057,3.99709304 44,5.03344825 L44,11.1271983 C33.012718,12.1340333 25.936121,21.3847823 24,32.0334483 L20,54.0334483 C18.034242,64.8451203 9,62.0472273 9,70.0334483 C9,72.8034483 11.23,75.0334483 14,75.0334483 L78,75.0334483 C80.77,75.0334483 83,72.8034483 83,70.0334483 C83,62.0472483 73.965758,64.8451483 72,54.0334483 L68,32.0334483 C66.063879,21.3847833 58.987282,12.1340333 48,11.1271983 L48,5.03344825 C48.0084697,4.4921752 47.7971845,3.97058314 47.4143998,3.58779844 C47.0316151,3.20501374 46.5100231,2.99372854 45.96875,3.00219825 C45.9062844,2.99926725 45.8437156,2.99926725 45.78125,3.00219825 L45.78125,3.00219825 Z M34,77.0334483 C34,83.6814483 39.352,89.0334483 46,89.0334483 C52.648,89.0334483 58,83.6814483 58,77.0334483 L34,77.0334483 Z"/></g></g></svg>
+                </div>
+            </div>
+            <h2 class="title">Get notified.</h2>
+            <p class="copy">We'll send you important updates about Fading so you don't miss out on anything.</p>
+            <div class="subscribe__form" id="subscribe__form">
+                <input type="text" class="subscribe__field" id="email" placeholder="your email address">
+                <button class="subscribe__button" onclick="subscribe()">
+                    <!-- <i class="ion-android-drafts"></i> -->
+                    <div class="subscribe__button-svg">
+                        <svg width="80px" height="54px" viewBox="0 0 80 54" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><g fill="#ff3333"><path d="M14,17 C11.7134,17 9.6185,17.7806 7.9375,19.0625 L42.375,51.40622 C43.1488,52.13282 44.8512,52.13282 45.625,51.40622 L80.0625,19.0625 C78.3815,17.7806 76.2866,17 74,17 L14,17 Z M5.3125,22.0625 C4.489,23.5171 4,25.2026 4,27 L4,61.00002 C4,66.54002 8.46,71.00002 14,71.00002 L74,71.00002 C79.54,71.00002 84,66.54002 84,61.00002 L84,27 C84,25.2026 83.511,23.5171 82.6875,22.0625 L48.375,54.31252 C45.9276,56.61062 42.0724,56.61062 39.625,54.31252 L5.3125,22.0625 Z" transform="translate(-4 -17)"/></g></g></svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="divider-wrap">
+        <div class="divider"></div>
+    </div>
+    <div class="footer">
+        <div class="container container--lg u-flex">
+            <div class="center">
+                <a href="#" class="link">press kit</a>
+                <div class="link-divider"></div>
+                <a href="mailto:onikolapo@gmail.com" class="link">email</a>
+                <div class="link-divider"></div>
+                <a target="_blank" href="http://twitter.com/kolapo_" class="link">twitter</a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/vendor/rAF.js"></script>
+    <script src="./js/vendor/lightbox-plus-jquery.min.js"></script>
+    <script src="./js/vendor/fetch.js"></script>
+    <script src="./js/vendor/promise.min.js"></script>
+    <script src="./js/animBg.js"></script>
+    <script src="./js/gallery.js"></script>
+    <script type="text/javascript">
+        function subscribe(){
+            // alert('submit');
+            var email = document.getElementById('email');
+            console.log(email);
+            fetch('https://ripe-dentist.glitch.me/mailchimp', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    email_address: email.value,
+                    status: 'subscribed'
+                })
+            }).then(function(response){
+                console.log(response.json());
+                // show the person that they've been subscribed
+                email.value = '';
+            }).catch(function(error){
+                console.log(error);
+            })
+
+            return false;
+        }
+    </script>
+    <!-- <script type="text/javascript">
+        window.onscroll = function(){
+            //parallax code
+            var masthead = document.getElementById('large-header');
+            var shift = getScrollPercent(10);
+            console.log(shift);
+            alert('yo');
+        };
+
+        function getScrollPercent(val) {
+            var h = document.documentElement,
+                b = document.body,
+                st = 'scrollTop',
+                sh = 'scrollHeight';
+            return h[st] || b[st] / ((h[sh] || b[sh]) - h.clientHeight) * val;
+        }
+    </script> -->
+</body>
+
+</html>

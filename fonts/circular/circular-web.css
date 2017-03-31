@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/lineto-circular-bold-s.f0792d98.eot");
+    src: url("../fonts/lineto-circular-bold-s.f0792d98.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-bold-s.c02ad86d.woff") format("woff"), url("../fonts/lineto-circular-bold-s.49eaae3a.ttf") format("truetype"), url("../fonts/lineto-circular-bold-s.8eb924f6.svg#LLCircularWeb-Bold") format("svg");
+    font-weight: bold;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/lineto-circular-book-s.88857cee.eot");
+    src: url("../fonts/lineto-circular-book-s.88857cee.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-book-s.554f0904.woff") format("woff"), url("../fonts/lineto-circular-book-s.350a5a78.ttf") format("truetype"), url("../fonts/lineto-circular-book-s.60806fad.svg#LLCircularWeb-Book") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Circular";
+    src: url("../fonts/lineto-circular-medium.4227d186.eot");
+    src: url("../fonts/lineto-circular-medium.4227d186.eot?#iefix") format("embedded-opentype"), url("../fonts/lineto-circular-medium.05384215.woff") format("woff"), url("../fonts/lineto-circular-medium.de3db024.ttf") format("truetype"), url("../fonts/lineto-circular-medium.8ed0c815.svg#LLCircularWeb-Book") format("svg");
+    font-weight: 500;
+    font-style: normal
+}

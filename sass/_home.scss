@@ -1,0 +1,348 @@
+.hero {
+    padding: 160px 0 90px;
+    @include screen(small) {
+        padding: 75px 0;
+    }
+    &__ball-wrap {
+        height: 100px;
+        @include screen(small) {
+            height: 75px;
+        }
+    }
+    &__ball {
+        height: 85px;
+        width: 85px;
+        background-color: $red;
+        border-radius: 100%;
+        margin: auto;
+        animation: bounce 5s infinite ease-in-out;
+        margin-bottom: 10px;
+        @include screen(small) {
+            height: 75px;
+            width: 75px;
+        }
+    }
+    &__title {
+        text-align: center;
+        margin-top: 75px;
+        font-size: 3.8rem;
+        @include screen(small) {
+            margin-top: 60px;
+            font-size: 3.5rem;
+        }
+    }
+}
+
+.copy {
+    line-height: 1.7;
+    font-size: 1.8rem;
+    margin-top: 30px;
+    .hero & {
+        animation: fadeIn 2s ease-in-out;
+        animation-fill-mode: forwards;
+        animation-delay: 1s;
+        opacity: 0;
+    }
+    .subscribe & {
+        margin-top: 30px;
+    }
+    @include screen(small) {
+        margin-top: 30px;
+        font-size: 1.6rem;
+    }
+}
+
+#large-header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+
+.trailer{
+    &__video{
+        background-color: #fff;
+        height: 560px;
+        width: 100%;
+        border-radius: 3px;
+        @include screen(med){
+            height: 450px;
+        }
+        @include screen(small){
+            height: 250px;
+        }
+    }
+}
+
+.section__title {
+    font-size: 3.6rem;
+    @include screen(med){
+        font-size: 3.2rem;
+    }
+}
+
+.everywhere {
+    padding: 150px 0 60px;
+    @include screen(med){
+        padding: 100px 0 15px;
+    }
+}
+
+.elements {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    @include screen(med){
+        display: none;
+    }
+    &--mobile{
+        display: none;
+        @include screen(med){
+            display: block;
+            height: auto;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .element {
+        position: absolute;
+        object-fit: cover;
+        object-position: center;
+        &__screen{
+            position: absolute;
+            overflow: hidden;
+            background: #000;
+            video, img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+        &__tv {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+
+            .element__screen{
+                background-color: #ddd;
+                top: 9px;
+                left: 9px;
+                width: 625px;
+                height: 353px;
+                border-radius: 1px;
+            }
+        }
+        &__tablet {
+            bottom: 0;
+            left: 60%;
+            .element__screen{
+                background-color: #ddd;
+                top: 10px;
+                left: 13px;
+                width: 187px;
+                height: 125px;
+                border-radius: 1px;
+            }
+        }
+        &__s7 {
+            bottom: 0;
+            left: 70%;
+            .element__screen{
+                background-color: #ddd;
+                top: 4px;
+                left: 16px;
+                width: 102px;
+                height: 58px;
+                border-radius: 1px;
+            }
+        }
+        &__xbox {
+            bottom: 0;
+            left: 22%;
+        }
+    }
+}
+
+.platforms {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0 75px;
+    @include screen(med){
+        padding: 100px 0 60px;
+    }
+    @include screen(small){
+        padding: 75px 0 45px;
+    }
+    img {
+        height: 32px;
+        width: auto;
+        margin: 0 35px 60px;
+        object-fit: contain;
+        object-position: center;
+        @include screen(med){
+            margin: 0 30px 50px;
+        }
+        @include screen(small){
+            height: 32px;
+            width: 100%;
+            margin: 0 30px 50px;
+        }
+    }
+}
+
+.screenshots{
+    display: flex;
+    justify-content: space-between;
+    padding: 150px 0;
+    background-color: whitesmoke;
+    @include screen(med){
+        padding: 100px 0;
+    }
+}
+
+.screenshot{
+    width: 31%;
+    height: 250px;
+    background-color: #eee;
+    display: inline-block;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    transition: all 300ms;
+    box-shadow: 0 6px 20px -6px rgba(0, 0, 0, .2);
+    @include screen(med){
+        width: 47%;
+    }
+    @include screen(small){
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    &:hover{
+        opacity: 1;
+    }
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 3px;
+    }
+}
+
+.lightbox, .lightboxOverlay{
+    position: fixed;
+}
+
+.lightbox .lb-image{
+    border-color: #696969;
+}
+
+.subscribe {
+    padding: 140px 0 150px;
+    $form-height: 50px;
+    background-color: white;
+    @include screen(med){
+        padding: 90px 0;
+    }
+    &__form {
+        position: relative;
+        margin-top: 45px;
+        height: $form-height;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    &__field {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        padding: 12px 15px 15px;
+        border: none;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        outline: none;
+        font-family: $regular-font;
+        height: 100%;
+        transition: all .3s;
+        padding-right: $form-height;
+        font-size: 1.8rem;
+        &:focus {
+            border-color: #888;
+        }
+    }
+    &__button {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        height: $form-height;
+        width: $form-height;
+        background-color: transparent;
+        border: none;
+        color: $red;
+        cursor: pointer;
+
+        &-svg{
+            height: 24px;
+            width: 24px;
+            svg{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    &__icon {
+        margin: 0 auto;
+        color: $red;
+        font-size: 2.1rem;
+        height: 60px;
+        width: 60px;
+        color: white;
+        background-color: $red;
+        border-radius: 50%;
+        line-height: 60px;
+        text-align: center;
+        animation: bounce 4s infinite ease-in-out;
+
+        &-svg{
+            height: 20px;
+            width: 20px;
+            margin: 0 auto;
+
+            svg{
+                margin-top: 19px;
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+    .title {
+        margin-top: 30px;
+    }
+}
+
+.footer__svg{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    // display: none;
+
+    svg{
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer &{
+        margin-right: 3px;
+    }
+}

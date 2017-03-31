@@ -1,0 +1,17 @@
+<svg width="150" height="150" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>circle-spikes</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M -5.68434e-14 -5.68434e-14L 150 -5.68434e-14L 150 150L -5.68434e-14 150L -5.68434e-14 -5.68434e-14Z" fill="#FFFFFF"/>
+</mask>
+<g id="circle-spikes" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Subtract" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(20 20)" fill="#777777"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 55 0L 60.4891 17.0567C 66.9735 17.9865 72.9341 20.5392 77.946 24.29L 93.8909 16.1091L 85.71 32.054C 89.4608 37.0659 92.0135 43.0265 92.9433 49.5109L 110 55L 92.9433 60.4891C 92.0135 66.9735 89.4608 72.9341 85.71 77.946L 93.8909 93.8909L 77.946 85.71C 72.9341 89.4608 66.9735 92.0135 60.4891 92.9433L 55 110L 49.5109 92.9433C 43.0265 92.0135 37.0659 89.4608 32.054 85.71L 16.1091 93.8909L 24.29 77.946C 20.5392 72.9341 17.9865 66.9735 17.0567 60.4891L 0 55L 17.0567 49.5109C 17.9865 43.0265 20.5392 37.0659 24.29 32.054L 16.1091 16.1091L 32.054 24.29C 37.0659 20.5392 43.0265 17.9865 49.5109 17.0567L 55 0ZM 55 78C 67.7026 78 78 67.7026 78 55C 78 42.2975 67.7026 32 55 32C 42.2975 32 32 42.2975 32 55C 32 67.7026 42.2975 78 55 78Z"/>
+</defs>
+</svg>

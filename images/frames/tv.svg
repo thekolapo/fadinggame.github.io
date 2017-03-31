@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="643px" height="386px" viewBox="0 0 643 386" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>TV</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#414246" offset="0%"></stop>
+            <stop stop-color="#16151A" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-2">
+            <stop stop-color="#212123" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-319.000000, -1450.000000)">
+            <g id="TV" transform="translate(319.000000, 1450.000000)">
+                <path d="M0,8.15310304 C0,3.65026857 3.65580552,0 8.14450057,0 L634.855499,0 C639.353583,0 643,3.64897627 643,8.15310304 L643,363.5577 C643,368.060534 639.344194,371.710803 634.855499,371.710803 L8.14450057,371.710803 C3.64641711,371.710803 0,368.061827 0,363.5577 L0,8.15310304 Z M9.11133603,9.77329017 L633.888664,9.77329017 L633.888664,361.611736 L9.11133603,361.611736 L9.11133603,9.77329017 Z" id="TV_Screen" fill="#17171D"></path>
+                <g id="TV_foot" transform="translate(195.242915, 371.710803)">
+                    <path d="M7.56624822,0 L244.034915,0 L249.778255,6.35289845 C251.648692,8.42184994 250.912701,10.0990665 248.123478,10.0990665 L4.39069169,10.0990665 C1.60634735,10.0990665 0.780492542,8.33994338 2.53788034,6.18004912 L7.56624822,0 Z" id="Rectangle-4" fill="url(#linearGradient-1)"></path>
+                    <rect id="Rectangle-5" fill="#101013" x="0" y="8.79596116" width="252.51417" height="4.56086875"></rect>
+                    <rect id="Rectangle-3" fill="url(#linearGradient-2)" x="35.7945344" y="0" width="179.948887" height="6.51552678"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

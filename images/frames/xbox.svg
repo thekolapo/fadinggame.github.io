@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="53px" viewBox="0 0 216 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Xbox One</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="66.3957184%" y1="50%" x2="-45.5681296%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0.525547445" y="31.437037" width="107.211679" height="15.2518519"></rect>
+        <rect id="path-3" x="0.525547445" y="8.82222222" width="107.211679" height="15.2518519"></rect>
+        <linearGradient x1="-20.2104063%" y1="-58.4992923%" x2="41.8727554%" y2="74.1781199%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#191919" stop-opacity="0.5" offset="89.8564267%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-5" points="18.649635 0.407407407 0.519388686 5.66666667 107.737226 5.66666667 107.737226 0.407407407"></polygon>
+        <linearGradient x1="191.989343%" y1="-236.376953%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#CBCBCB" stop-opacity="0.5" offset="20.3553168%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="0" y="8.82222222" width="108.262774" height="37.8666667"></rect>
+        <linearGradient x1="105.948498%" y1="-197.274306%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#1B1B1B" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.921530331" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-9" points="0 0.407407407 0 5.66666667 108.262774 5.66666667 89.9519667 0.407407407"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-187.000000, -1784.000000)">
+            <g id="Xbox-One" transform="translate(187.000000, 1784.000000)">
+                <polygon id="Rectangle-1" fill="#000000" points="0.525547445 46.6888889 4.54105839 53 212.207231 53 216 46.6888889"></polygon>
+                <g id="left">
+                    <g id="Rectangle-5">
+                        <use fill="#282828" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <rect id="Rectangle-8" fill="#9B9B9B" x="1.05109489" y="25.1259259" width="106.686131" height="5.25925926"></rect>
+                    <rect id="Rectangle-11" fill="#454545" x="12.0875912" y="26.1777778" width="2.62773723" height="3.15555556"></rect>
+                    <rect id="Rectangle-11" fill="#454545" x="97.2262774" y="26.1777778" width="2.62773723" height="3.15555556"></rect>
+                    <polygon id="Rectangle-10" fill="#1B1B1B" points="12.0875912 26.1777778 14.6011348 29.3333333 97.0643533 29.3333333 99.8540146 26.1777778"></polygon>
+                    <polygon id="Rectangle-7" fill="#000000" points="0.525547445 24.0740741 1.07625111 25.1259259 107.737226 25.1259259 107.737226 24.0740741"></polygon>
+                    <polygon id="Rectangle-7" fill="#313131" points="1.0545746 30.3851852 0.525547445 31.437037 107.737226 31.437037 107.737226 30.3851852"></polygon>
+                    <g id="Rectangle-5">
+                        <use fill="#282828" xlink:href="#path-3"></use>
+                        <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="Rectangle-13">
+                        <use fill="#000000" xlink:href="#path-5"></use>
+                        <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                    </g>
+                    <rect id="Rectangle-3-copy" fill="#1B1B1B" x="0.525547445" y="5.66666667" width="107.737226" height="3.15555556"></rect>
+                </g>
+                <g id="right" transform="translate(107.737226, 0.000000)">
+                    <rect id="Rectangle-3" fill="#000000" x="0" y="5.66666667" width="108.262774" height="3.15555556"></rect>
+                    <g id="Rectangle-2">
+                        <use fill="#1D1D1D" xlink:href="#path-7"></use>
+                        <use fill="url(#linearGradient-6)" xlink:href="#path-7"></use>
+                    </g>
+                    <g id="Rectangle-4">
+                        <use fill="#929292" xlink:href="#path-9"></use>
+                        <use fill="url(#linearGradient-8)" xlink:href="#path-9"></use>
+                    </g>
+                </g>
+                <g id="Logo" transform="translate(187.620438, 23.022222)">
+                    <ellipse id="Oval-2" fill="#FFFFFF" cx="5.25547445" cy="5.25925926" rx="5.25547445" ry="5.25925926"></ellipse>
+                    <path d="M1.05109489,8.53558667 C1.0828514,8.31965592 1.15467784,7.9700463 1.31713384,7.49319358 C1.44476519,7.11856074 1.73146433,6.24398265 2.30957839,5.31744461 C3.05050397,4.12997016 4.10062496,2.89273291 4.10062496,2.89273291 C4.10062496,2.89273291 3.7424782,2.23168252 3.09009088,1.73127608 C2.70877295,1.43879032 2.18293623,1.2252063 1.90243364,1.12358795 C2.13514376,0.918674174 2.38518824,0.734389432 2.6499561,0.57344881 C2.52150384,0.677716864 2.4566006,0.74888794 2.4566006,0.74888794 C2.4566006,0.74888794 3.28207378,0.802184459 4.19466561,1.19609861 C5.10725736,1.59001283 5.29063613,1.93044619 5.29063613,1.93044619 C5.29759851,1.93044619 5.48097728,1.59001283 6.39356902,1.19609861 C7.30616085,0.802184459 8.13163403,0.74888794 8.13163403,0.74888794 C8.13163403,0.74888794 8.04645893,0.655487311 7.8781446,0.525925926 C8.16003126,0.690467299 8.42587972,0.88119666 8.67264088,1.09494339 C8.42502723,1.18055963 7.82607614,1.40760624 7.40410305,1.73127608 C6.75171574,2.23168252 6.39356897,2.89273291 6.39356897,2.89273291 C6.39356897,2.89273291 7.44368997,4.12997016 8.18461555,5.31744461 C8.7627296,6.24398265 9.04942875,7.11856074 9.17706009,7.49319358 C9.37891233,8.08568497 9.44084916,8.48173643 9.45985401,8.66900285 C9.39010808,8.76203136 9.31753665,8.85265709 9.2422739,8.94074074 C9.15921334,8.73566954 8.95542173,8.32831959 8.52565738,7.56115126 C7.29095429,5.35709422 5.27006365,4.19987898 5.27006365,4.19987898 C5.27006365,4.19987898 5.26267595,4.21899409 5.24907421,4.25518176 C5.23547613,4.21899269 5.22808897,4.19987898 5.22808897,4.19987898 C5.22808897,4.19987898 3.20719833,5.35709422 1.97249524,7.56115126 C1.59652976,8.23228373 1.39350259,8.62804501 1.29295407,8.85390839 C1.20867006,8.75101464 1.12798292,8.6448373 1.05109489,8.53558667 Z" id="Oval-1" fill="#111111"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

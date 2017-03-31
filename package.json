@@ -1,0 +1,34 @@
+{
+<<<<<<< HEAD
+  "name": "fading",
+=======
+  "name": "Fading",
+>>>>>>> f3bef6de76f720dd47523a9848fac8943886c241
+  "version": "1.0.0",
+  "description": "Repo for Paystack website",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-svg-sprite": "^1.3.6",
+    "gulp-util": "^3.0.7",
+    "postcss-scss": "^0.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onyekvchi/fading.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onyekvchi/fading/issues"
+  },
+  "homepage": "https://github.com/onyekvchi/fading#readme"
+}

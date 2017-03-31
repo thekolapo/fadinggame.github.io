@@ -1,0 +1,19 @@
+<svg width="150" height="150" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>spikes</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-190 0)" figma:type="canvas">
+<mask id="mask0_alpha" mask-type="alpha">
+<path d="M 190 0L 340 0L 340 150L 190 150L 190 0Z" fill="#FFFFFF"/>
+</mask>
+<g id="spikes" mask="url(#mask0_alpha)" figma:type="frame">
+<g id="Vector" figma:type="vector">
+<use xlink:href="#path0_fill" transform="translate(190 0)" fill="#777777"/>
+<use xlink:href="#path1_fill" transform="translate(190 0)" fill="#777777"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 38.8889 60.7963L 0 0L 75 0L 38.8889 60.7963Z"/>
+<path id="path1_fill" d="M 113.889 60.7963L 75 0L 150 0L 113.889 60.7963Z"/>
+</defs>
+</svg>
